@@ -1,0 +1,4 @@
+@EndUserText.label: 'SD Purchase Register Report App'
+define service Zpurchase {
+  expose ZPURCHASE;
+}

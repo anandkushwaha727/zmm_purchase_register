@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SIA6" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SIA6>
+    <MAIN_OBJECT>
+     <NAME>ZIAM_PURCHASE_REGISTER_EXT</NAME>
+     <TYPE>SIA6</TYPE>
+     <DESCRIPTION>IAM app for Purchase Register Report APP</DESCRIPTION>
+     <RESPONSIBLE>CB9980000011</RESPONSIBLE>
+     <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <MASTER_SYSTEM>FXF</MASTER_SYSTEM>
+     <PACKAGE_REF>
+      <PACKAGE_NAME>ZMM</PACKAGE_NAME>
+     </PACKAGE_REF>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
+    </MAIN_OBJECT>
+    <APP_ID>ZIAM_PURCHASE_REGISTER_EXT</APP_ID>
+    <APP_TYPE>EXT</APP_TYPE>
+    <ABAP_LANGUAGE_VERSION>5</ABAP_LANGUAGE_VERSION>
+    <UI_APP_ID>ZPURCHASEREG_UI5R</UI_APP_ID>
+    <SERVICE>
+     <item>
+      <REL_NAME>ZPURCHASE</REL_NAME>
+      <REL_TYPE>G4BA</REL_TYPE>
+      <APP_ID>ZIAM_PURCHASE_REGISTER_EXT</APP_ID>
+      <SRVC_NAME>05DD8F6431FC68E0A030D091F9588E</SRVC_NAME>
+      <SRVC_TYPE>HT</SRVC_TYPE>
+      <UIAD_SRC>ZPURCHASEREG_UI5R</UIAD_SRC>
+      <TEXT>Service Binding For Purchase Register Report App</TEXT>
+      <TYPE_TEXT>OData V4</TYPE_TEXT>
+     </item>
+    </SERVICE>
+    <PUBLISH_STATUS>p</PUBLISH_STATUS>
+   </SIA6>
+  </asx:values>
+ </asx:abap>
+</abapGit>
